@@ -64,7 +64,8 @@ public class HtmlFetcher {
 					
 					if(null != name) {
 						Map<String, String> codeNameMap = new HashMap<>();
-						codeNameMap.put(code, name);
+						codeNameMap.put("code", code);
+						codeNameMap.put("name", name);
 						codeNameMapList.add(codeNameMap);
 					}
 				}				
